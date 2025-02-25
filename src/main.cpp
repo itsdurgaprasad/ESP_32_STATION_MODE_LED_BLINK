@@ -2,12 +2,12 @@
 #include <ThingSpeak.h>
 
 // Wi-Fi Credentials
-const char* ssid = "Oppo";
-const char* password = "12345678";
+const char* ssid = "";
+const char* password = "";
 
 // ThingSpeak API Information
-unsigned long channelID = 2852050;  // Replace with your ThingSpeak Channel ID
-const char* apiKey = "2P1YAC04L8X4UJY6"; // Read API Key
+unsigned long channelID = ;  // Replace with your ThingSpeak Channel ID
+const char* apiKey = ""; // Read API Key
 
 WiFiClient client;
 int ledPin = 2; // LED connected to GPIO 2
